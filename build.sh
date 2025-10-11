@@ -25,7 +25,13 @@ load_config() {
     # Extract license icons from config.yaml
     FOOTER_LICENSE_ICONS=""
     if grep -q "license_icons:" config.yaml; then
-        FOOTER_LICENSE_ICONS=$(grep -A 10 "license_icons:" config.yaml | grep "    -" | sed 's/.*- *"\([^"]*\)".*/\1/')
+        FOOTER_LICENSE_ICONS=$(grep -A 5 "license_icons:" config.yaml | grep "^    -" | sed 's/.*- *"\([^"]*\)".*/\1/')
+    fi
+    
+    # Extract extra lines from config.yaml
+    FOOTER_EXTRA_LINES=""
+    if grep -q "extra_lines:" config.yaml; then
+        FOOTER_EXTRA_LINES=$(grep -A 10 "extra_lines:" config.yaml | grep "^    -" | sed 's/.*- *"\([^"]*\)".*/\1/')
     fi
     
     # Pandoc configuration
@@ -101,7 +107,7 @@ generate_nav_menu() {
 generate_footer() {
     local footer_html=""
     
-    footer_html="${footer_html}<footer style=\"text-align: center; margin-top: 2rem; padding: 1rem; border-top: 1px solid #8b4513; color: #654321; font-size: 0.9rem;\">\n"
+    footer_html="${footer_html}<footer>\n"
     footer_html="${footer_html}        © by ${FOOTER_HOLDER}, licensed under <a href=\"${FOOTER_LICENSE_URL}\" style=\"color: #8b4513;\">${FOOTER_LICENSE_NAME}</a>"
     
     # Add license icons from config if they exist
@@ -111,6 +117,16 @@ generate_footer() {
                 footer_html="${footer_html}<img src=\"${icon_url}\" alt=\"\" style=\"max-width: 1em;max-height:1em;margin-left: .2em;\">"
             fi
         done <<< "$FOOTER_LICENSE_ICONS"
+    fi
+    
+    # Add extra lines from config if they exist
+    if [ -n "$FOOTER_EXTRA_LINES" ]; then
+        footer_html="${footer_html}<br><br>"
+        while IFS= read -r line; do
+            if [ -n "$line" ]; then
+                footer_html="${footer_html}        ${line}<br>\n"
+            fi
+        done <<< "$FOOTER_EXTRA_LINES"
     fi
     
     footer_html="${footer_html}\n    </footer>"

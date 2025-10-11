@@ -357,3 +357,14 @@ blockquote {
         inset 0 0 40px rgba(218, 165, 32, 0.15);
     transition: all 0.3s ease;
 }
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #8b4513;
+    color: #654321;
+    font-size: 0.9rem;
+    margin-left: 280px; /* Offset to account for sidebar width */
+}

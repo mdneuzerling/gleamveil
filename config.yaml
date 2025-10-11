@@ -15,6 +15,9 @@ footer:
     - "https://mirrors.creativecommons.org/presskit/icons/by.svg"
     - "https://mirrors.creativecommons.org/presskit/icons/nc.svg"
     - "https://mirrors.creativecommons.org/presskit/icons/nd.svg"
+  extra_lines:
+    - "The CSS, JavaScript, and HTML template of this project were created with the assistance of large language models."
+    - "Large language models were <b>not</b> involved in the creation of the content for this project. All stories, history, mechanics, deities, geography, lore, etc. are my own creation."
   
 # Build Configuration
 build:

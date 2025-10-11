@@ -114,6 +114,11 @@
         bottom: -40px;
         right: -40px;
     }
+    
+    /* Footer mobile styling - remove left margin */
+    footer {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 769px) {
