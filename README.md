@@ -4,7 +4,7 @@ This is a reference for my personal RPG setting.
 
 The CSS, JavaScript, HTML template, and build script of this project were created with the assistance of large language models.
 
-Large language models were  **not** involved in the creation of the content for this project. All stories, history, mechanics, deities, geography, lore, etc. are original work. Some visual elements (such as maps) are temporary placeholders.
+Large language models were  **not** involved in the creation of the content for this project. All stories, history, mechanics, deities, geography, lore, etc. are original work, except the maps which are temporary placeholders.
 
 ## Project Structure
 
