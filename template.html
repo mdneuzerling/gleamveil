@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$if(title)$$title$ - SITE_TITLE_PLACEHOLDER$else$SITE_TITLE_PLACEHOLDER$endif$</title>
+    
+    <!-- Disallow web crawling and AI training -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="slurp" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="duckduckbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    
+    <!-- AI training directives -->
+    <meta name="ai-content" content="no-train">
+    <meta name="ai-training" content="exclude">
+    <meta name="ai-scraping" content="disallow">
+    
+    <!-- Additional privacy directives -->
+    <meta name="referrer" content="no-referrer">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Mobile Navigation Toggle -->
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </button>
+
+        <!-- Navigation Overlay -->
+        <div class="nav-overlay" id="nav-overlay"></div>
+
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <button class="sidebar-close" id="sidebar-close" aria-label="Close navigation">×</button>
+            <div class="sidebar-header">
+                <h1>SITE_TITLE_PLACEHOLDER</h1>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                NAV_MENU_PLACEHOLDER
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                $if(title)$
+                <div class="title-block">
+                    <h1 class="main-title">$title$</h1>
+                    $if(subtitle)$
+                    <p class="subtitle">$subtitle$</p>
+                    $endif$
+                </div>
+                $endif$
+
+                $if(toc)$
+                <div class="table-of-contents">
+                    <h2>Table of Contents</h2>
+                    $toc$
+                </div>
+                $endif$
+
+                <div class="content">
+                    $body$
+                </div>
+            </div>
+        </main>
+    </div>
+
+    FOOTER_PLACEHOLDER
+
+    <!-- Load Leaflet before custom scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

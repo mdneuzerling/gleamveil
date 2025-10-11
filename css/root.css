@@ -1,0 +1,63 @@
+:root {
+  --color-primary: #8b4513;
+  --color-primary-hover: #a0522d;
+  --color-secondary: #654321;
+  --color-accent: #daa520;
+  --color-accent-light: #ffd700;
+  --color-background: #f4f1e8;
+  --color-background-light: #e8dcc0;
+  --color-background-dark: #d4c4a8;
+  --color-text: #654321;
+  --color-text-light: #f4f1e8;
+  
+  --font-family: 'Georgia', 'Times New Roman', serif;
+  --font-family-mono: 'Courier New', monospace;
+  --font-family-story: 'Georgia', 'Times New Roman', serif;
+  
+  --header-text-transform: uppercase;
+  
+  --font-size-base: 1rem;
+  --font-size-subtitle: 1.2rem;
+  --font-size-callout-heading: 1.5rem;
+  --font-size-h1: 2.4rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.6rem;
+  --font-size-h4: 1.1rem;
+  --font-size-h5: 1rem;
+  --font-size-h6: 1rem;
+  --font-size-main-title: 2.8rem;
+  --font-size-hero: 4.5rem;
+  --font-size-sidebar-header: 1.5rem;
+  
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 4px 15px rgba(0, 0, 0, 0.2);
+  --shadow-xl: 0 8px 25px rgba(0, 0, 0, 0.2);
+  --shadow-2xl: 0 12px 35px rgba(0, 0, 0, 0.25);
+  
+  --text-shadow-sm: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  --text-shadow-md: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  --text-shadow-lg: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  
+  --transition-normal: 0.3s ease;
+  
+  --sidebar-width: 280px;
+  --content-max-width: 800px;
+  
+  --gradient-background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-light) 25%, var(--color-background-dark) 50%, #c4b49a 75%, #b8a082 100%);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+  --gradient-content: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.9) 0%, rgba(248, 240, 220, 0.95) 100%);
+}
+
+/* Mobile responsive font sizes */
+@media (max-width: 768px) {
+  :root {
+    --font-size-main-title: 2.0rem;
+    --font-size-h1: 1.6rem;
+    --font-size-h2: 1.4rem;
+    --font-size-h3: 1.2rem;
+    --font-size-h4: 1rem;
+    --font-size-h5: 1rem;
+    --font-size-h6: 1rem;
+    --font-size-sidebar-header: 1.2rem;
+  }
+}

@@ -1,0 +1,6 @@
+[build]
+  command = "./build.sh"
+  publish = "dist"
+
+[build.environment]
+  PANDOC_VERSION = "3.1.2"

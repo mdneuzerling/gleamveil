@@ -1,0 +1,49 @@
+# Site Configuration
+site:
+  title: "Gleamveil"
+  description: "Gleamveil Reference Book"
+  author: "David Neuzerling"
+  license: "CC BY-NC-ND 4.0"
+  
+# Footer Configuration
+footer:
+  holder: "David Neuzerling"
+  license_name: "CC BY-NC-ND 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  license_icons:
+    - "https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+    - "https://mirrors.creativecommons.org/presskit/icons/by.svg"
+    - "https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+    - "https://mirrors.creativecommons.org/presskit/icons/nd.svg"
+  
+# Build Configuration
+build:
+  output_dir: "dist"
+  css_dir: "css"
+  js_dir: "js"
+  images_dir: "images"
+  template: "template.html"
+  
+# Pandoc Configuration
+pandoc:
+  format: "html"
+  options:
+    - "toc"                    # Generate table of contents
+    - "section-divs"          # Wrap sections in divs
+  
+# File Patterns
+files:
+  markdown_pattern: "[0-9]*-*.md"
+  css_pattern: "*.css"
+  js_pattern: "*.js"
+  
+# Navigation
+navigation:
+  auto_generate: true
+  show_numbers: true
+  
+# Development
+dev:
+  watch: false
+  verbose: false
+  clean_before_build: true

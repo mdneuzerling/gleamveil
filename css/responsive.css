@@ -1,0 +1,161 @@
+@media (max-width: 768px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+    
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    
+    .sidebar.open {
+        transform: translateX(0);
+    }
+    
+    .sidebar-close {
+        display: block;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .content-wrapper {
+        padding: 20px;
+        padding-top: 100px;
+        margin: 0;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+        max-width: none;
+    }
+    
+    .table-of-contents {
+        margin: 1rem 0 2rem 0;
+    }
+    
+    p {
+        text-indent: 0;
+    }
+    
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    table {
+        width: 100%;
+        table-layout: auto;
+    }
+    
+    th, td {
+        padding: 0.6rem 0.3rem;
+        border-bottom: none;
+    }
+    
+    p {
+        font-size: var(--font-size-base);
+    }
+    
+    li {
+        font-size: var(--font-size-base);
+    }
+    
+    div.entity-content,
+    div.entity-content-left,
+    div.entity-content-right {
+        flex-direction: column !important;
+    }
+    
+    div.entity-text,
+    div.entity-content-left div.entity-text,
+    div.entity-content-right div.entity-text {
+        order: 1 !important;
+    }
+    
+    div.entity-content-left p,
+    div.entity-content-right p {
+        order: 2 !important;
+        text-align: center !important;
+        margin: 1rem auto !important;
+    }
+    
+    div.entity-content-left img,
+    div.entity-content-right img {
+        max-width: 250px !important;
+        width: 100% !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    
+    .quote, div.quote {
+        padding: 2rem 1.5rem;
+        font-size: var(--font-size-base);
+        margin: 2rem 0;
+    }
+    
+    .quote::before, div.quote::before,
+    .quote::after, div.quote::after {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .quote::before, div.quote::before {
+        top: -40px;
+        left: -40px;
+    }
+    
+    .quote::after, div.quote::after {
+        bottom: -40px;
+        right: -40px;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-nav-toggle {
+        display: none;
+    }
+    
+    .sidebar-close {
+        display: none;
+    }
+    
+    .nav-overlay {
+        display: none !important;
+    }
+}
+
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .content-wrapper {
+        background: white;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: black;
+        text-shadow: none;
+    }
+    
+    p, li {
+        color: black;
+    }
+}
