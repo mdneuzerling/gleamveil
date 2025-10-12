@@ -124,7 +124,7 @@ generate_footer() {
         footer_html="${footer_html}<br><br>"
         while IFS= read -r line; do
             if [ -n "$line" ]; then
-                footer_html="${footer_html}        ${line}<br>\n"
+                footer_html="${footer_html}        ${line}<br><br>\n"
             fi
         done <<< "$FOOTER_EXTRA_LINES"
     fi
