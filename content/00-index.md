@@ -3,51 +3,15 @@ title: Gleamveil
 toc: false
 ---
 
-# Lorem Ipsum
+Gleamveil is a realm where opposites coexist in uneasy truce.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Some secretly wonder how the realm came to be.
 
-::: quote
-*"Lorem ipsum dolor sit amet, consectetur adipiscing elit."*
+The Athenaeum-Sanctum of They Who Know and Know Not reject the question. The origin of the world either cannot be known, or should not be known by mortals. Enquiry into the matter by laypeople is an Apocraphism that can be treated by subjecting the offender to the Healing of Unknowing.
 
-<div class="attribution">Lorem Ipsum</div>
-:::
+The Heretical Church of the Unravelling Thread believes that Gleamveil is the shattered avatar of the Unified God, and only by unmaking the world can mortals live in unity with the True Deity. 
 
-::: {.story-box}
-::: {.story-title}
-Lorem Ipsum
-:::
-
-Amet id nibh aenean venenatis pharetra, lectus class! Libero purus, malesuada
-mus habitant taciti; donec pretium? Risus nostra magnis mus consequat, tellus
-nullam montes. Iaculis gravida vestibulum molestie cubilia per congue. Mattis
-augue blandit lacinia fringilla mi massa pharetra, lobortis erat, quam luctus
-a, at sapien vitae vulputate porta.
-
-Dolor lobortis pellentesque arcu, posuere himenaeos sociosqu cum id.
-Imperdiet tristique phasellus quis odio tempor gravida, consequat sodales,
-purus augue habitasse. Blandit sed malesuada dictum volutpat neque proin
-risus ac cras mauris ornare. Neque sapien gravida diam dictumst gravida dui
-ante! Pretium ante id, ad fringilla nisi sociosqu conubia quam – risus cras,
-massa libero lectus. Ullamcorper.
-
-Ipsum inceptos faucibus eu, augue ultrices ullamcorper tristique. Tellus
-faucibus cum neque – nascetur senectus, imperdiet semper habitasse vel nec
-consequat volutpat.
-
-Adipiscing rhoncus nec, ante nostra magnis porttitor, platea penatibus
-maecenas ullamcorper habitasse lacinia quam. Pretium massa vehicula ligula
-eget conubia urna: donec: enim duis. Ullamcorper taciti magnis est elementum
-orci congue class pellentesque. Consequat orci nisl convallis parturient
-porta, suscipit curae vulputate! Eleifend metus cubilia curabitur!
-
-Sit fringilla nec – purus dignissim curae fermentum. Tellus felis quis
-tristique, porttitor suspendisse eros, potenti pharetra fames. Pulvinar
-potenti dapibus non platea ac ornare cubilia, facilisi – dis volutpat magnis
-quis. Facilisi eleifend sapien donec; posuere, etiam molestie dapibus lacinia
-luctus nascetur erat nullam. Viverra ullamcorper fusce pharetra viverra
-malesuada varius: eget parturient blandit quam nulla sed.
-:::
+The Wandering Prophet Zazanelle preaches that the world is dead, and that Gleamveil is its last breath --- an echo of existence that is doomed to fade away, along with its inhabitants.
 
 ## Navigation
 
