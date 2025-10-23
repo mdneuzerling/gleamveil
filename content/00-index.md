@@ -3,7 +3,7 @@ title: Gleamveil
 toc: false
 ---
 
-Gleamveil is a realm where opposites coexist in uneasy truce.
+Gleamveil is a realm where opposites coexist in uneasy truce. Above stretches the Veil, where peasants work the farms and magic is restricted to the wealthy few. Deep underground spans the Gleam, where magic and dangerous beasts are commonplace.
 
 Some secretly wonder how the realm came to be.
 
