@@ -7,7 +7,7 @@ Gleamveil is a realm where opposites coexist in uneasy truce. Above stretches th
 
 Some secretly wonder how the realm came to be.
 
-The Athenaeum-Sanctum of They Who Know and Know Not reject the question. The origin of the world either cannot be known, or should not be known by mortals. Enquiry into the matter by laypeople is an Apocraphism that can be treated by subjecting the offender to the Healing of Unknowing.
+The Athenaeum-Sanctum of They Who Know and Know Not reject the question. The origin of the world either cannot be known, or should not be known by mortals. Enquiry into the matter by laypeople is an Apocraphism that can be treated with the Healing of Unknowing.
 
 The Heretical Church of the Unravelling Thread believes that Gleamveil is the shattered avatar of the Unified God, and only by unmaking the world can mortals live in unity with the True Deity. 
 
